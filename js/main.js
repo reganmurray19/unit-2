@@ -8,7 +8,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoicmVnYW5tdXJyYXkiLCJhIjoiY2s2c3EwMXRwMGpncjNsczVjdnBncGtvOSJ9.0GY5BTM-s8hVU_KB98_GZw'
 }).addTo(mymap);
-$.getJSON("data/temp_leaflet_data.geojson", function(response){
+$.getJSON("data/data_placeholder.geojson", function(response){
             //create a Leaflet GeoJSON layer and add it to the map
             L.geoJson(response).addTo(mymap);
         });
