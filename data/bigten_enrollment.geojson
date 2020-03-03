@@ -1,0 +1,239 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.743,42.2808 ]
+    },
+    "properties": {
+    "University":"University of Michigan",
+    "City":"Ann Arbor",
+    "yr1":43426,
+    "yr2":43710,
+    "yr3":43625,
+    "yr4":43651,
+    "yr5":44718,
+    "yr6":46002,
+    "yr7":46716
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.6877,42.0451 ]
+    },
+    "properties": {
+    "University":"Northwestern University",
+    "City":"Evanston",
+    "yr1":17052,
+    "yr2":20997,
+    "yr3":20336,
+    "yr4":20955,
+    "yr5":21208,
+    "yr6":21421,
+    "yr7":21591
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.4012,43.0731 ]
+    },
+    "properties": {
+    "University":"University of Wisconsin-Madison",
+    "City":"Madison",
+    "yr1":42454,
+    "yr2":42820,
+    "yr3":43275,
+    "yr4":43389,
+    "yr5":43336,
+    "yr6":44411,
+    "yr7":45317
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.2434,40.1164 ]
+    },
+    "properties": {
+    "University":"University of Illinois",
+    "City":"Urbana-Champaign",
+    "yr1":42883,
+    "yr2":43398,
+    "yr3":43603,
+    "yr4":44087,
+    "yr5":47826,
+    "yr6":49339,
+    "yr7":51196
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.9378,39.9897 ]
+    },
+    "properties": {
+    "University":"Penn State University",
+    "City":"University Park",
+    "yr1":45351,
+    "yr2":46184,
+    "yr3":46606,
+    "yr4":46848,
+    "yr5":47261,
+    "yr6":46610,
+    "yr7":46270
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.9988,39.9612 ]
+    },
+    "properties": {
+    "University":"Ohio State University",
+    "City":"Columbus",
+    "yr1":56387,
+    "yr2":57466,
+    "yr3":58322,
+    "yr4":58663,
+    "yr5":59482,
+    "yr6":59837,
+    "yr7":61170
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.3839,42.737 ]
+    },
+    "properties": {
+    "University":"Michigan State University",
+    "City":"East Lansing",
+    "yr1":48906,
+    "yr2":49343,
+    "yr3":50085,
+    "yr4":50543,
+    "yr5":50344,
+    "yr6":50019,
+    "yr7":50351
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7026,40.8136 ]
+    },
+    "properties": {
+    "University":"University of Nebraska",
+    "City":"Lincoln",
+    "yr1":24593,
+    "yr2":24445,
+    "yr3":25006,
+    "yr4":25260,
+    "yr5":25897,
+    "yr6":26079,
+    "yr7":25820
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.5302,41.6611 ]
+    },
+    "properties": {
+    "University":"University of Iowa",
+    "City":"Iowa City",
+    "yr1":30893,
+    "yr2":31498,
+    "yr3":31065,
+    "yr4":31387,
+    "yr5":32150,
+    "yr6":33334,
+    "yr7":33564
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.4518,40.4862 ]
+    },
+    "properties": {
+    "University":"Rutgers University",
+    "City":"New Brunswick",
+    "yr1":48250,
+    "yr2":48378,
+    "yr3":40720,
+    "yr4":41669,
+    "yr5":42314,
+    "yr6":42808,
+    "yr7":43354
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.9378,38.9897 ]
+    },
+    "properties": {
+    "University":"University of Maryland",
+    "City":"College Park",
+    "yr1":37247,
+    "yr2":37272,
+    "yr3":37610,
+    "yr4":38140,
+    "yr5":39083,
+    "yr6":40521,
+    "yr7":41200
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.201,44.9375 ]
+    },
+    "properties": {
+    "University":"University of Minnesota",
+    "City":"Minneapolis",
+    "yr1":43802,
+    "yr2":43646,
+    "yr3":43413,
+    "yr4":43457,
+    "yr5":43951,
+    "yr6":44544,
+    "yr7":44405
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.9081,40.4259 ]
+    },
+    "properties": {
+    "University":"Purdue University",
+    "City":"West Lafayette",
+    "yr1":38310,
+    "yr2":37847,
+    "yr3":37823,
+    "yr4":29497,
+    "yr5":29497,
+    "yr6":30043,
+    "yr7":32224
+    }
+  }
+]
+}
