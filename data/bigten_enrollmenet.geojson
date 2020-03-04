@@ -10,8 +10,8 @@
     "properties": {
     "University":"University of Michigan",
     "City":"Ann Arbor",
-    "yr1":43426,
-    "yr2":43710,
+    "2012":43426,
+    "2013":43710,
     "yr3":43625,
     "yr4":43651,
     "yr5":44718,
@@ -28,8 +28,8 @@
     "properties": {
     "University":"Northwestern University",
     "City":"Evanston",
-    "yr1":17052,
-    "yr2":20997,
+    "2012":17052,
+    "2013":20997,
     "yr3":20336,
     "yr4":20955,
     "yr5":21208,
@@ -46,8 +46,8 @@
     "properties": {
     "University":"University of Wisconsin-Madison",
     "City":"Madison",
-    "yr1":42454,
-    "yr2":42820,
+    "2012":42454,
+    "2013":42820,
     "yr3":43275,
     "yr4":43389,
     "yr5":43336,
@@ -64,8 +64,8 @@
     "properties": {
     "University":"University of Illinois",
     "City":"Urbana-Champaign",
-    "yr1":42883,
-    "yr2":43398,
+    "2012":42883,
+    "2013":43398,
     "yr3":43603,
     "yr4":44087,
     "yr5":47826,
@@ -82,8 +82,8 @@
     "properties": {
     "University":"Penn State University",
     "City":"University Park",
-    "yr1":45351,
-    "yr2":46184,
+    "2012":45351,
+    "2013":46184,
     "yr3":46606,
     "yr4":46848,
     "yr5":47261,
@@ -100,8 +100,8 @@
     "properties": {
     "University":"Ohio State University",
     "City":"Columbus",
-    "yr1":56387,
-    "yr2":57466,
+    "2012":56387,
+    "2013":57466,
     "yr3":58322,
     "yr4":58663,
     "yr5":59482,
@@ -118,8 +118,8 @@
     "properties": {
     "University":"Michigan State University",
     "City":"East Lansing",
-    "yr1":48906,
-    "yr2":49343,
+    "2012":48906,
+    "2013":49343,
     "yr3":50085,
     "yr4":50543,
     "yr5":50344,
@@ -136,8 +136,8 @@
     "properties": {
     "University":"University of Nebraska",
     "City":"Lincoln",
-    "yr1":24593,
-    "yr2":24445,
+    "2012":24593,
+    "2013":24445,
     "yr3":25006,
     "yr4":25260,
     "yr5":25897,
@@ -154,8 +154,8 @@
     "properties": {
     "University":"University of Iowa",
     "City":"Iowa City",
-    "yr1":30893,
-    "yr2":31498,
+    "2012":30893,
+    "2013":31498,
     "yr3":31065,
     "yr4":31387,
     "yr5":32150,
@@ -172,8 +172,8 @@
     "properties": {
     "University":"Rutgers University",
     "City":"New Brunswick",
-    "yr1":48250,
-    "yr2":48378,
+    "2012":48250,
+    "2013":48378,
     "yr3":40720,
     "yr4":41669,
     "yr5":42314,
@@ -190,8 +190,8 @@
     "properties": {
     "University":"University of Maryland",
     "City":"College Park",
-    "yr1":37247,
-    "yr2":37272,
+    "2012":37247,
+    "2013":37272,
     "yr3":37610,
     "yr4":38140,
     "yr5":39083,
@@ -208,8 +208,8 @@
     "properties": {
     "University":"University of Minnesota",
     "City":"Minneapolis",
-    "yr1":43802,
-    "yr2":43646,
+    "2012":43802,
+    "2013":43646,
     "yr3":43413,
     "yr4":43457,
     "yr5":43951,
@@ -226,13 +226,49 @@
     "properties": {
     "University":"Purdue University",
     "City":"West Lafayette",
-    "yr1":38310,
-    "yr2":37847,
+    "2012":38310,
+    "2013":37847,
     "yr3":37823,
     "yr4":29497,
     "yr5":29497,
     "yr6":30043,
     "yr7":32224
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.5264,39.1653 ]
+    },
+    "properties": {
+    "University":"Indiana University - Bloomington",
+    "City":"Bloomington",
+    "2012":42133,
+    "2013":46817,
+    "yr3":46416,
+    "yr4":43171,
+    "yr5":43748,
+    "yr6":43710,
+    "yr7":43503
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.2379,41.7002 ]
+    },
+    "properties": {
+    "University":"University of Notre Dame",
+    "City":"Notre Dame",
+    "2012":12126,
+    "2013":12124,
+    "yr3":12179,
+    "yr4":12292,
+    "yr5":12393,
+    "yr6":12467,
+    "yr7":12607
     }
   }
 ]
