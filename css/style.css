@@ -1,20 +1,93 @@
+html {
+  background-color:#1f1f1f;
+}
+
+@font-face {
+    font-family: 'big_ten_blockregular';
+    src: url('b1g_block2-webfont.woff2') format('woff2'),
+         url('b1g_block2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #mapid {
-    height: 400px;
-    width: 80%;
+    height: 600px;
+    width: 45%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 80px;
     display: inline-block;
 }
 
-#panel {
-    width: 16%;
-    padding: 20px;
+#infoPanel {
+  background-color: #c9c9c9;
+
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+
+  height: 600 px;
+  width: 45%;
+  margin-top: 130px;
+  margin-right: 40px;
+  display: inline-block;
+  float: right;
+  border-radius: 25px;
+}
+
+#panelHeader {
+  font-size: 8pt;
+  font-family: "big_ten_blockregular";
+  color: black;
+}
+
+#popLabel {
+  font-family: "big_ten_blockregular";
+  color: #0088CE;
+  font-size: 10px;
+}
+
+#divLabel {
+  font-family: "big_ten_blockregular";
+  color: #0088CE;
+  font-size: 10px;
+}
+
+#bigTenLogo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+#bodyText {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+#slider {
+    width: 70%;
+    padding: 30px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
     line-height: 42px;
 }
 
+#studntPop {
+  display: inline-block;
+  padding: 120px;
+  line-height: 20px;
+}
+
+#divScale {
+  display: inline-block;
+  padding: 120px;
+  line-height: 25px;
+}
+
 .range-slider {
-    width: 55%;
+    width: 70%;
 }
 
 .step {
@@ -28,12 +101,12 @@
 
 #forward {
     float: right;
-    width: 20%
+    width: 13%
 }
 
 #backward {
     float: left;
-    width: 20%
+    width: 13%
 }
 .leaflet-popup-content p {
     margin: 0.2em 0;

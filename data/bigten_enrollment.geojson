@@ -10,13 +10,15 @@
     "properties": {
     "University":"University of Michigan",
     "City":"Ann Arbor",
-    "2012":43426,
-    "2013":43710,
+    "yr1":43426,
+    "yr2":43710,
     "yr3":43625,
     "yr4":43651,
     "yr5":44718,
     "yr6":46002,
-    "yr7":46716
+    "yr7":46716,
+    "DiversityScaleRank": 0.5,
+    "divInflated": 15000
     }
   },
   {
@@ -28,13 +30,15 @@
     "properties": {
     "University":"Northwestern University",
     "City":"Evanston",
-    "2012":17052,
-    "2013":20997,
+    "yr1":17052,
+    "yr2":20997,
     "yr3":20336,
     "yr4":20955,
     "yr5":21208,
     "yr6":21421,
-    "yr7":21591
+    "yr7":21591,
+    "DiversityScaleRank": 0.65,
+    "divInflated": 19500
     }
   },
   {
@@ -46,13 +50,15 @@
     "properties": {
     "University":"University of Wisconsin-Madison",
     "City":"Madison",
-    "2012":42454,
-    "2013":42820,
+    "yr1":42454,
+    "yr2":42820,
     "yr3":43275,
     "yr4":43389,
     "yr5":43336,
     "yr6":44411,
-    "yr7":45317
+    "yr7":45317,
+    "DiversityScaleRank":0.33,
+    "divInflated": 9900
     }
   },
   {
@@ -64,13 +70,15 @@
     "properties": {
     "University":"University of Illinois",
     "City":"Urbana-Champaign",
-    "2012":42883,
-    "2013":43398,
+    "yr1":42883,
+    "yr2":43398,
     "yr3":43603,
     "yr4":44087,
     "yr5":47826,
     "yr6":49339,
-    "yr7":51196
+    "yr7":51196,
+    "DiversityScaleRank":0.64,
+    "divInflated": 21120
     }
   },
   {
@@ -82,13 +90,15 @@
     "properties": {
     "University":"Penn State University",
     "City":"University Park",
-    "2012":45351,
-    "2013":46184,
+    "yr1":45351,
+    "yr2":46184,
     "yr3":46606,
     "yr4":46848,
     "yr5":47261,
     "yr6":46610,
-    "yr7":46270
+    "yr7":46270,
+    "DiversityScaleRank":0.39,
+    "divInflated": 11700
     }
   },
   {
@@ -100,13 +110,15 @@
     "properties": {
     "University":"Ohio State University",
     "City":"Columbus",
-    "2012":56387,
-    "2013":57466,
+    "yr1":56387,
+    "yr2":57466,
     "yr3":58322,
     "yr4":58663,
     "yr5":59482,
     "yr6":59837,
-    "yr7":61170
+    "yr7":61170,
+    "DiversityScaleRank":0.39,
+    "divInflated": 11700
     }
   },
   {
@@ -118,13 +130,15 @@
     "properties": {
     "University":"Michigan State University",
     "City":"East Lansing",
-    "2012":48906,
-    "2013":49343,
+    "yr1":48906,
+    "yr2":49343,
     "yr3":50085,
     "yr4":50543,
     "yr5":50344,
     "yr6":50019,
-    "yr7":50351
+    "yr7":50351,
+    "DiversityScaleRank":0.41,
+    "divInflated": 12300
     }
   },
   {
@@ -136,13 +150,15 @@
     "properties": {
     "University":"University of Nebraska",
     "City":"Lincoln",
-    "2012":24593,
-    "2013":24445,
+    "yr1":24593,
+    "yr2":24445,
     "yr3":25006,
     "yr4":25260,
     "yr5":25897,
     "yr6":26079,
-    "yr7":25820
+    "yr7":25820,
+    "DiversityScaleRank":0.3,
+    "divInflated": 9000
     }
   },
   {
@@ -154,13 +170,15 @@
     "properties": {
     "University":"University of Iowa",
     "City":"Iowa City",
-    "2012":30893,
-    "2013":31498,
+    "yr1":30893,
+    "yr2":31498,
     "yr3":31065,
     "yr4":31387,
     "yr5":32150,
     "yr6":33334,
-    "yr7":33564
+    "yr7":33564,
+    "DiversityScaleRank":0.35,
+    "divInflated": 10500
     }
   },
   {
@@ -172,13 +190,15 @@
     "properties": {
     "University":"Rutgers University",
     "City":"New Brunswick",
-    "2012":48250,
-    "2013":48378,
+    "yr1":48250,
+    "yr2":48378,
     "yr3":40720,
     "yr4":41669,
     "yr5":42314,
     "yr6":42808,
-    "yr7":43354
+    "yr7":43354,
+    "DiversityScaleRank":0.7,
+    "divInflated": 21000
     }
   },
   {
@@ -190,13 +210,15 @@
     "properties": {
     "University":"University of Maryland",
     "City":"College Park",
-    "2012":37247,
-    "2013":37272,
+    "yr1":37247,
+    "yr2":37272,
     "yr3":37610,
     "yr4":38140,
     "yr5":39083,
     "yr6":40521,
-    "yr7":41200
+    "yr7":41200,
+    "DiversityScaleRank":0.64,
+    "divInflated": 19200
     }
   },
   {
@@ -208,13 +230,15 @@
     "properties": {
     "University":"University of Minnesota",
     "City":"Minneapolis",
-    "2012":43802,
-    "2013":43646,
+    "yr1":43802,
+    "yr2":43646,
     "yr3":43413,
     "yr4":43457,
     "yr5":43951,
     "yr6":44544,
-    "yr7":44405
+    "yr7":44405,
+    "DiversityScaleRank":0.43,
+    "divInflated": 12900
     }
   },
   {
@@ -226,13 +250,15 @@
     "properties": {
     "University":"Purdue University",
     "City":"West Lafayette",
-    "2012":38310,
-    "2013":37847,
+    "yr1":38310,
+    "yr2":37847,
     "yr3":37823,
     "yr4":29497,
     "yr5":29497,
     "yr6":30043,
-    "yr7":32224
+    "yr7":32224,
+    "DiversityScaleRank":0.41,
+    "divInflated": 12300
     }
   },
   {
@@ -244,13 +270,15 @@
     "properties": {
     "University":"Indiana University - Bloomington",
     "City":"Bloomington",
-    "2012":42133,
-    "2013":46817,
+    "yr1":42133,
+    "yr2":46817,
     "yr3":46416,
     "yr4":43171,
     "yr5":43748,
     "yr6":43710,
-    "yr7":43503
+    "yr7":43503,
+    "DiversityScaleRank":0.41,
+    "divInflated": 12300
     }
   },
   {
@@ -262,13 +290,15 @@
     "properties": {
     "University":"University of Notre Dame",
     "City":"Notre Dame",
-    "2012":12126,
-    "2013":12124,
+    "yr1":12126,
+    "yr2":12124,
     "yr3":12179,
     "yr4":12292,
     "yr5":12393,
     "yr6":12467,
-    "yr7":12607
+    "yr7":12607,
+    "DiversityScaleRank":0.43,
+    "divInflated": 12900
     }
   }
 ]
