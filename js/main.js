@@ -1,5 +1,5 @@
 //Construct the map as a global variable
-var mymap = L.map('mapid').setView([42.392792,-85.0733565], 5);
+var mymap = L.map('mapid').setView([39.2486218,-69.2016856], 5);
 var yearMin;
 var divMin;
 var years = [2012,2013,2014,2015,2016,2017,2018];
@@ -61,7 +61,7 @@ function pointToLayer(feature, latlng, attributes) {
   yearLayer.bindPopup(yearPopUpContent);
   var divPopUpContent = "<p><b>City:</b> " + feature.properties.City + "</p><p><b>University:</b>" + feature.properties.University + "</p><p><b>Diversity Index:</b>" + feature.properties[baseDivAttribute] + "</p>";
   divLayer.bindPopup(divPopUpContent);
-
+  createLegend(attributes, "yr");
   return toggleLayers(yearLayer,divLayer,attributes);
 }
 
@@ -74,10 +74,12 @@ function toggleLayers(yearLayer, divLayer,attributes) {
       mymap.removeLayer(divLayer);
       mymap.addLayer(yearLayer);
       document.getElementById("slider").style.visibility="visible";
+      createLegend(attributes, "yr");
     } else if ($(this).attr('id') == 'divScale'){
       mymap.removeLayer(yearLayer);
       mymap.addLayer(divLayer);
       document.getElementById("slider").style.visibility="hidden";
+      createLegend(attributes, "div");
     }
   });
 
@@ -108,7 +110,7 @@ function calcPropRadius(attValue) {
      var minRadius = 5;
      //Flannery Appearance Compensation formula
      var radius = 1.0083 * Math.pow(attValue/yearMin,0.5715) * minRadius;
-     return radius;
+     return radius + 12;
 };
 
 //This function creates proportional symbols
@@ -186,6 +188,25 @@ function updatePropSymbols(attribute, index){
     };
   });
 };
+
+//This function creates the map legend
+function createLegend(attributes,type) {
+
+  //var container = L.DomUtil.create('div', 'legendCircles', 'legend');
+  if (type == "yr") {
+    stats = [61170, 17052, 40558];
+    document.getElementById("lgndTitle").innerHTML = "Student Enrollment";
+    document.getElementById("lgndImg").src = "img/yr_lgnd.png";
+
+  } else if (type == "div") {
+    stats = [0.7, 0.3, 0.45];
+    document.getElementById("lgndTitle").innerHTML = "Campus Diversity Index";
+    document.getElementById("lgndImg").src = "img/div_lgn.png";
+
+  }
+
+}
+
 function callBackFunc(){
   styleMap();
   loadData();

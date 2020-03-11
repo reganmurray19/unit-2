@@ -1,6 +1,4 @@
-html {
-  background-color:#1f1f1f;
-}
+
 
 @font-face {
     font-family: 'big_ten_blockregular';
@@ -11,25 +9,25 @@ html {
 }
 
 #mapid {
-    height: 600px;
-    width: 45%;
-    float: left;
-    margin-left: 40px;
-    margin-top: 80px;
-    display: inline-block;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index:1;
 }
 
 #infoPanel {
-  background-color: #c9c9c9;
+  background-color: rgba(31,31,31,.7);
 
   font-family: "Verdana", sans-serif;
   text-align: center;
 
-  height: 600 px;
-  width: 45%;
-  margin-top: 130px;
-  margin-right: 40px;
-  display: inline-block;
+  position: absolute;
+  left: 700px;
+  top: 70px;
+  right: 50px;
+
+  z-index: 2;
   float: right;
   border-radius: 25px;
 }
@@ -37,32 +35,37 @@ html {
 #panelHeader {
   font-size: 8pt;
   font-family: "big_ten_blockregular";
-  color: black;
+  color: white;
+  opacity: 100%;
 }
 
 #popLabel {
   font-family: "big_ten_blockregular";
-  color: #0088CE;
+  color: white;
   font-size: 10px;
 }
 
 #divLabel {
+  opacity: 100%;
   font-family: "big_ten_blockregular";
-  color: #0088CE;
+  color: white;
   font-size: 10px;
 }
 
 #bigTenLogo {
+  opacity: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
   height: 40px;
 }
 
 #bodyText {
+  opacity: 100%;
   margin-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 15px;
+  color: white;
 }
 
 #slider {
@@ -110,4 +113,17 @@ html {
 }
 .leaflet-popup-content p {
     margin: 0.2em 0;
+}
+
+#legend {
+  color: white;
+  font-weight: bold;
+}
+
+
+#lgndImg {
+  opacity: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 200px;
 }
